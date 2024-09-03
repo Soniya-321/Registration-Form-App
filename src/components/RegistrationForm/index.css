@@ -1,0 +1,102 @@
+/* Write your CSS code here */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-family: roboto;
+}
+.heading {
+  color: #ea580c;
+  font-size: 28px;
+}
+
+.input-container {
+  margin-top: 10px;
+}
+.input-label {
+  font-size: 12px;
+  font-weight: bold;
+  color: #475569;
+}
+
+.input-box {
+  width: 100%;
+  padding: 10px;
+  outline: none;
+  margin-top: 5px;
+  background-color: #fff;
+  border: 1px solid #475569;
+  border-radius: 5px;
+}
+.input-box-1 {
+  width: 100%;
+  padding: 10px;
+  outline: none;
+  margin-top: 5px;
+  border: #ff0b37 1px solid;
+  background-color: #fef2f4;
+  border-radius: 5px;
+}
+.submit-btn {
+  background-color: #ea580c;
+  color: #fff;
+  padding: 10px;
+  width: 100%;
+  border-radius: 5px;
+  margin-top: 10px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.another-response-btn {
+  background-color: #ea580c;
+  color: #fff;
+  padding: 10px;
+  width: 100%;
+  border-radius: 5px;
+  margin-top: 10px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.form-container {
+  padding: 10px;
+}
+.error-msg {
+  color: #ff0b37;
+  margin: 0px;
+  font-size: 10px;
+}
+.success-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.succes-text {
+  font-size: 14px;
+}
+
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 40px;
+  }
+  .form-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    box-shadow: 0px 4px 16px 0px;
+    padding: 30px 40px;
+    border-radius: 5px;
+  }
+  .submit-btn {
+    width: 80px;
+    align-self: center;
+  }
+  .another-response-btn {
+    align-self: center;
+  }
+}
